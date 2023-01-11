@@ -1,0 +1,417 @@
+/* All Common CSS Star  */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.clr {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* All Common CSS End  */
+
+/* Header Part CSS Start  */
+#header {
+    background: rgba(34, 34, 34, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    padding-top: 30px;
+}
+
+.menu {
+    width: 80%;
+    float: left;
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: #fff;
+    padding-left: 45px;
+    line-height: 90px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .5s;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu ul li a:hover {
+    color: #28b8d8;
+}
+
+/* Header Part CSS End  */
+
+
+/* Banner Part CSS Start  */
+#banner {
+    padding-top: 330px;
+    padding-bottom: 250px;
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 21px;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#banner h2 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 40px;
+    font-family: 'Roboto Slab', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 0.7px 0.7px #000;
+    padding-bottom: 21px;
+}
+
+#banner p {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Roboto Slab', sans-serif;
+    text-shadow: 0.7px 0.7px #000;
+}
+
+/* Banner Part CSS End  */
+
+/* second Part CSS Start  */
+#second {
+    padding-top: 80px;
+    padding-bottom: 84px;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro h1 {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 27px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.intro p {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 78px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro h2 {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.cards {
+    margin: 0 auto;
+    height: 355px;
+}
+
+.card_one {
+    width: 370px;
+    height: 355px;
+    border: rgba(0, 0, 0, 0.25) solid 1px;
+    float: left;
+    padding: 15px;
+}
+
+.card_two {
+    width: 370px;
+    height: 355px;
+    border: rgba(0, 0, 0, 0.25) solid 1px;
+    float: left;
+    margin: 0px 30px 0px 30px;
+    padding: 15px;
+}
+
+.card_three {
+    width: 370px;
+    height: 355px;
+    border: rgba(0, 0, 0, 0.25) solid 1px;
+    float: left;
+    padding: 15px;
+}
+
+.card_one h1 {
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 0;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.card_two h1 {
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 0;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.card_three h1 {
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 0;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+
+.card_one p {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    padding-bottom: 10px;
+    font-family: 'Roboto';
+    line-height: 1.4;
+}
+
+.card_two p {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    padding-bottom: 10px;
+    font-family: 'Roboto';
+    line-height: 1.4;
+}
+
+.card_three p {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    padding-bottom: 10px;
+    font-family: 'Roboto';
+    line-height: 1.4;
+}
+
+/* second Part CSS End  */
+
+
+
+/* third Part CSS Start  */
+#emni {
+    background-color: #2c2c2c;
+}
+
+.insta {
+    text-align: center;
+}
+
+.insta h1 {
+    color: #fff;
+    padding-top: 51px;
+    padding-bottom: 51px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.insta h1::before {
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: rgb(255, 255, 255);
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    left: -115px;
+}
+
+.insta h1::after {
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: rgb(255, 255, 255);
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    right: -115px;
+}
+
+#insta_gallery {
+    width: 100%;
+    
+}
+.images{
+    margin: 0 auto;
+}
+
+.i {
+    float: left;
+    width: 25%;
+    
+}
+
+.i img {
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#emnitwo {
+    background: #2c2c2c;
+}
+
+.insta_page {
+    text-align: center;
+
+}
+
+.pg_brdr {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: solid 0.5px #fff;
+    font-size: 0;
+    position: relative;
+    left: 50%;
+}
+
+.pg_brdr img {
+    width: 11px;
+}
+
+.pg_brdr h3 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+/* third Part CSS End  */
+
+/* fourth Part CSS Start  */
+/* #journal {
+    background-color: #fff;
+}
+
+.frm_jrnl {
+    text-align: center;
+    margin-top: 78px;
+    margin-bottom: 30px;
+}
+
+.frm_jrnl h1 {
+    color: #2c2c2c;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.frm_jrnl h1::before {
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: #2c2c2c;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    left: -115px;
+}
+
+.frm_jrnl h1::after {
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: #2c2c2c;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    right: -115px;
+} */
+
+
+/* fourth Part CSS End  */
+
+
+
+
+
+
+
+/* fourth Part CSS Start  */
+/* fourth Part CSS End  */
